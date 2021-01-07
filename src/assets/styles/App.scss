@@ -1,4 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
-  background-color: brown;
+  background-color: hsl(34, 57%, 70%);
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: hsl(209, 75%, 17%);
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  h1 {
+    color: #fff;
+    padding: 0 1em;
+    display: inline;
+  }
+}
+
+.sidebar {
+  background: hsl(209, 75%, 17%);
+  color: #000;
+  height: calc(100vh - 60px);
+  width: 250px;
+  position: fixed;
+  .menu {
+    .element {
+      list-style: none;
+      // background-color: hsl(34, 57%, 70%);
+      padding: 1em;
+      margin: 1em 0;
+      font-weight: 400;
+      font-size: 1.2em;
+    }
+  }
 }
