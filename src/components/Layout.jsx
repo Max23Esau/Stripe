@@ -8,7 +8,7 @@ function Layout(props) {
     <>
       <Header />
       <SideBar />
-      {/* {props.children} */}
+      {props.children}
     </>
   );
 }
